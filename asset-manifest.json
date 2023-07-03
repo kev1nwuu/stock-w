@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/stock-w/static/css/main.6a11c723.css",
+    "main.js": "/stock-w/static/js/main.774e50c9.js",
+    "static/media/1.jpg": "/stock-w/static/media/1.02b06886f34e09c93e58.jpg",
+    "static/media/19.jpg": "/stock-w/static/media/19.8e47360fb8a28e41c441.jpg",
+    "static/media/Air-Jordan-1_s-Under-200_SecondaryA_EN.webp": "/stock-w/static/media/Air-Jordan-1_s-Under-200_SecondaryA_EN.d519d5eafe8fb7bf3284.webp",
+    "static/media/StockXchange-Paris-26-1200x800.avif": "/stock-w/static/media/StockXchange-Paris-26-1200x800.c556fc222a3982785b30.avif",
+    "static/media/site-Greg-1-800x800.avif": "/stock-w/static/media/site-Greg-1-800x800.925dccee95a298fd0878.avif",
+    "static/media/site-Laura-2-800x800.avif": "/stock-w/static/media/site-Laura-2-800x800.06a1816d30aec7d539f7.avif",
+    "static/media/nikemay.webp": "/stock-w/static/media/nikemay.80cea3e05ac4f42b1229.webp",
+    "static/media/adidasmay.webp": "/stock-w/static/media/adidasmay.512211ca7f9dad52a37f.webp",
+    "static/media/louismay.webp": "/stock-w/static/media/louismay.a1d3d9165c5b49834f6c.webp",
+    "static/media/jordanmay2.webp": "/stock-w/static/media/jordanmay2.9200bd9a63e96da67df2.webp",
+    "static/media/3.avif": "/stock-w/static/media/3.e416bfa985adc0068b5c.avif",
+    "static/media/1.avif": "/stock-w/static/media/1.541513701c4724964766.avif",
+    "static/media/5.avif": "/stock-w/static/media/5.b625e15c40f0ffe012c8.avif",
+    "static/media/4.avif": "/stock-w/static/media/4.40d3801a04153d0bad1a.avif",
+    "static/media/6.avif": "/stock-w/static/media/6.abe5268588d2ec024733.avif",
+    "static/media/2.avif": "/stock-w/static/media/2.d5971eac651ed7e51218.avif",
+    "index.html": "/stock-w/index.html",
+    "main.6a11c723.css.map": "/stock-w/static/css/main.6a11c723.css.map",
+    "main.774e50c9.js.map": "/stock-w/static/js/main.774e50c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a11c723.css",
+    "static/js/main.774e50c9.js"
+  ]
+}
