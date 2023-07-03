@@ -4,6 +4,7 @@ import Login from './pages/LogIn.js';
 import New from './pages/New.js'
 import ShoesDetail from './pages/shoes_detail.js';
 import About from './pages/About.js'
+import Cart from './compenents/Cart.js';
 
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -11,8 +12,9 @@ import { ProductProvider } from './compenents/ProductContext';
 
 function App() {
   return (
-    <Router>
-      <ProductProvider>
+    <ProductProvider>
+      <Router>
+      
       <div className="App">
         <Switch>
           <Route exact path="/">
@@ -36,10 +38,14 @@ function App() {
           <Route path="/Home"> 
             <Home />
           </Route>
+          <Route path="/Cart">
+            <Cart />
+          </Route>
         </Switch>
       </div>
-      </ProductProvider>
-    </Router>
+      
+      </Router>
+    </ProductProvider>
   );
 }
 

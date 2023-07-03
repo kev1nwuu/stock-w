@@ -11,8 +11,8 @@ import QA from '../compenents/QA';
 const Shoes_detail = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  const { selectedProductInfo } = useContext(ProductContext);
-  
+  const { selectedProductInfo, addToCart } = useContext(ProductContext);
+  const [selectedColor, setSelectedColor] = useState('');
 
 
   const sizes = [
@@ -78,7 +78,24 @@ const Shoes_detail = () => {
     setIsPopupOpen(!isPopupOpen);
   };
 
+  //
+  const handleAddToCart = () => {
+    const product = {
+      name,
+      image,
+      price,
+      size: selectedSize,
+      color: selectedColor,
+      quantity
+    };
+    console.log('Adding product to cart:', product);
+    addToCart(product);
+  };
+  
 
+  const handleColorChange = (color) => {
+    setSelectedColor(color);
+  };
 
 
   return (
@@ -102,9 +119,9 @@ const Shoes_detail = () => {
                 </div>
               </div>
               <div className="color-groups">
-                <div className="color color-black"></div>
-                <div className="color color-white"></div>
-                <div className="color color-light-gray"></div>
+                <div className="color color-black" onClick={() => handleColorChange('black')}></div>
+                <div className="color color-white" onClick={() => handleColorChange('white')}></div>
+                <div className="color color-light-gray" onClick={() => handleColorChange('light-gray')}></div>
               </div>
 
 
@@ -140,7 +157,7 @@ const Shoes_detail = () => {
 
 
               <Link to="/cart">
-                <button className="addToCartButton">Add to Cart</button>
+                <button className="addToCartButton" onClick={handleAddToCart}>Add to Cart</button>
               </Link>
             </div>
           </div>
